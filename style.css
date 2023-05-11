@@ -1,0 +1,315 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    font-style: italic;
+    color: #364f6b;
+    
+   }
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+
+    
+}
+
+nav ul li a:hover {
+	background-color: white;
+	color: #d3d3d3;
+	
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+.banner p {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #d3d3d3;
+}
+.wrapper-main {
+    width: 100%;
+}
+
+.gambar img {
+    width: 50%;
+    height:100%;
+    padding-top: 70px;
+    padding-left: 25px;
+    
+}
+
+.satu {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    ;
+}
+
+
+.satu p {
+    font-style: italic;
+    text-align: center;
+    color: #d3d3d3;
+}
+.satu h3 {
+    text-align: center;
+}
+
+.list {
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.list li {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    
+}
+
+.list li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px 9px 5px 9px;
+
+}
+.wrapper-form {
+    width: 40%;
+    height: 600px;
+    background: #d3d3d3;
+    float: right;
+    margin-top: -659px;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5%;
+
+
+}
+
+
+.form-group label {
+    display: block;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 90%;
+    padding: 1rem 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    transition: border 0.15s;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 0,5rem;
+   
+}
+
+
+.submit {
+    background: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s;
+    width: 97%;
+}
+
+.submit:hover {
+    background: rgba(173, 216, 230, 1);
+    color: black;
+}
+
+
+.wrapper-form h3 {
+    padding-top: 20px ;
+}
+.wrapper-form p {
+    padding-bottom: 50px;
+}
+
+
+.tengah {
+    text-align: center;
+    background: #d3d3d3;
+    margin-bottom: 50px;
+    margin-top: 90px;
+    height: 90px;
+    padding-top: 50px;
+
+
+} 
+
+.tengah-main {
+    width: 100%;
+
+
+
+}
+
+.tengah-a {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+.tengah-b {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.tengah-c {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+
+}
+
+
+.tengah-d {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+
+.tengah-e {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tengah-f{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
+
+.bawah {
+    margin-top: 155px;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 50px;
+
+}
+
+.bawah1 {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+}
+
+.bawah2 {
+    width: 30%;
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 350px;
+    margin-bottom: 90px;
+    padding: 5px  10px 5px  10px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+    
+
+.bawah2 a:hover {
+    color: #d3d3d3;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 50px ;
+    margin-bottom: 50px;
+}
+
+.copyright h1 {
+    font-style: italic;
+    font-family: courier;
+
+}
+
+
+
